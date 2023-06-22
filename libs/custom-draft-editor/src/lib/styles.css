@@ -1,0 +1,6 @@
+.DraftEditor-editorContainer {
+  background-color: lightgrey;
+  border-left: 0.1px solid transparent;
+  position: relative;
+  z-index: 1;
+}

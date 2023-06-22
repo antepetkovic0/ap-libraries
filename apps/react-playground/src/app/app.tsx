@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { CustomDraftEditor } from '@ap/custom-draft-editor';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="react-playground" />
+      <CustomDraftEditor placeholders={['placehoder-1', 'placeholder-2']} />
     </div>
   );
 }
